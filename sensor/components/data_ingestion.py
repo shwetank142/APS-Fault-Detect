@@ -55,7 +55,7 @@ class DataIngestion:
 
             #Prepare artifact
 
-            data_ingestion_artifact = artifact_entity.DataIngestionArtifact(
+            data_ingestion_artifact = artifacts_entity.DataIngestionArtifact(
                 feature_store_file_path=self.data_ingestion_config.feature_store_file_path,
                 train_file_path=self.data_ingestion_config.train_file_path, 
                 test_file_path=self.data_ingestion_config.test_file_path)
